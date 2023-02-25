@@ -1,0 +1,193 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  flex: 1;
+  text-align: center;
+}
+.container {
+  flex: 8;
+  display: flex;
+}
+.left {
+  flex: 1;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.right {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.bottom {
+  flex: 1;
+  text-align: center;
+}
+h1 {
+  text-align: none;
+  color: #DAA520;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+form {
+  background-color:rgba(75, 7, 7, 0.8);
+  padding: 25px;
+  border-radius: 35px;
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 25px;
+  color: #DAA520;
+  
+}
+
+label {
+  margin-bottom: 10px;
+  color: #DAA520;
+  font-family: "Calibri";
+  font-size: larger;
+  display: block;
+}
+
+button {
+  background-color: #DAA520;
+  color: rgba(75, 7, 7, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  border: 1px solid black;
+}
+
+form button:hover {
+  background-color: #DAA520;
+  color: #000000;
+  border-color: #000000;
+  font-style: bold;
+}
+
+select {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+option {
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="month"],
+input[type="checkbox"] {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 50%;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  border-color: #000000;
+  block-size: 20px;
+}
+
+input[id="cc-number"] {
+  background-image: url("/vector-credit-card-icon.webp");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding-right: 40px;
+  block-size: 20px;
+}
+
+.keep_informed {
+  align-items: center;
+  font-size: large;
+}
+.keep_informed input {
+  display: inline;
+  width: auto;
+}
+.pi {
+  display: flex;
+}
+#quantity {
+  width: 100%;
+  margin-right: 6px;
+  margin-top: 20px;
+}
+#product {
+  width: 80%;
+  margin-right: 50px;
+  margin-top: 20px;
+  block-size: 40%;
+}
+
+#firstname,
+#lastname,
+#address,
+#email,
+#phone {
+  margin-top: 20px;
+  width: 80%;
+}
+#payment {
+  margin-top: 20px;
+  width: 90%;
+}
+.name {
+  display: flex;
+}
+#firstname,
+#lastname {
+  width: 70%;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.pay {
+  display: flex;
+}
+#cc-expiration,
+#cc-number {
+  width: 70%;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.py,
+.product {
+  border: 1px solid black;
+}
+.by{
+  display: flex;
+  justify-content: center;
+  
+}
+body{
+  background-color: #000000;
+}
+
+.lastname{
+  margin-right: 20px;
+}
